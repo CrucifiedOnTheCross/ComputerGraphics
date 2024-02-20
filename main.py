@@ -1,17 +1,21 @@
-# This is a sample Python script.
+class ObjModel:
+    def __init__(self):
+        self.vertex = []
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    def readModel(self, file: str):
+        with open(file, 'r') as obj:
+            data = obj.read()
+
+        lines = data.splitlines()
+        self.vertex = []
+
+        for line in lines:
+            elem = line.split()
+            if elem and elem[0] == 'v':
+                self.vertex.append((float(elem[1]), float(elem[2]), float(elem[3])))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('DataSpell')
-
-# See DataSpell help at https://www.jetbrains.com/help/dataspell/
-  
+obj = ObjModel()
+obj.readModel('model_1.obj')
+print(obj.vertex)
+# %%
