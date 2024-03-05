@@ -18,3 +18,11 @@ class ObjModel:
 
     def getVertexFromPolygon(self, polygon):
         return [self.vertex[v - 1] for v in polygon]
+
+
+def movePoint(point, scale, move):
+    return [point[i] * scale + move[i] for i in range(len(point))]
+
+
+def movePol(pol, scale, move):
+    return [movePoint(pol[i], scale, move) for i in range(len(pol))]
