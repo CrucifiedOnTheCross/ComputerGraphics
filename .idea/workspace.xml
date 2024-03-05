@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b18fcc-b22c-4903-a3ec-384e5a5b16f2" name="Changes" comment="Star (2.0) update &#10;- add img">
-      <change afterPath="$PROJECT_DIR$/a_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_1.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/a_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/Lab1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_1.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/model/model_1.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_2.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/model/model_2.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/natsuki.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/model/natsuki.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ccX93aUJisvHGZGEMpng4jUs5g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,18 +44,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\DataspellProjects\ComputerGraphics\lwOne\model" />
+      <recent name="C:\Users\user\DataspellProjects\ComputerGraphics\lwOne\img" />
+      <recent name="C:\Users\user\DataspellProjects\ComputerGraphics\lwOne" />
       <recent name="C:\Users\user\DataspellProjects\Komputer_Graphics" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-644f0765d120-c6172f9078bd-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-233.14015.111" />
+        <option value="bundled-python-sdk-65c742565061-c6172f9078bd-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-233.14475.37" />
       </set>
     </attachedChunks>
   </component>
