@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92b18fcc-b22c-4903-a3ec-384e5a5b16f2" name="Changes" comment="- img add">
-      <change afterPath="$PROJECT_DIR$/lwOne/Lab2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lwOne/graphicsfunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="92b18fcc-b22c-4903-a3ec-384e5a5b16f2" name="Changes" comment="BackUP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwOne/Lab1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/Lab1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwOne/img/a_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/img/a_9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwOne/objectreader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/objectreader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwOne/Lab2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/Lab2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwOne/graphicsfunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/lwOne/graphicsfunction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CrucifiedOnTheCross"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1b028c1c-448f-4971-bee2-3bcad357dc34" />
+        <option name="url" value="https://github.com/CrucifiedOnTheCross/ComputerGraphics.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -69,6 +79,7 @@
     <MESSAGE value="Star (2.0) update &#10;- add img" />
     <MESSAGE value="Star (2.0) update &#10;- add img&#10;- add ObjModel&#10;- refactor folder" />
     <MESSAGE value="- img add" />
-    <option name="LAST_COMMIT_MESSAGE" value="- img add" />
+    <MESSAGE value="BackUP" />
+    <option name="LAST_COMMIT_MESSAGE" value="BackUP" />
   </component>
 </project>
