@@ -5,6 +5,10 @@ class ObjModel:
     def __init__(self):
         self.vertex = []
         self.polygons = []
+        self.texture = []
+        self.normal = []
+        self.polygons_normal = []
+        self.polygons_texture = []
 
         self.minx = float('inf')
         self.miny = float('inf')
@@ -20,15 +24,34 @@ class ObjModel:
                     if line.startswith('v '):
                         x, y, z = map(float, line.split()[1:])
                         self.vertex.append([x, y, z])
-
+                        
                         self.minx = min(self.minx, x)
                         self.miny = min(self.miny, y)
                         self.maxx = max(self.maxx, x)
                         self.maxy = max(self.maxy, y)
                         self.minz = max(self.maxx, z)
                         self.maxz = max(self.maxy, z)
+                        
                     elif line.startswith('f '):
-                        self.polygons.append([int(v.split('/')[0]) for v in line.split()[1:]])
+                        pol = []
+                        pol_t = []
+                        pol_n = []
+                        for v in line.split()[1:]:
+                            ar = v.split('/') 
+                            pol.append(int(ar[0]))
+                            pol_t.append(int(ar[1]))
+                            pol_n.append(int(ar[2]))
+                        self.polygons.append(pol)
+                        self.polygons_texture.append(pol_t)
+                        self.polygons_normal.append(pol_n)
+                        
+                    elif line.startswith('vt '):
+                        x, y = map(float, line.split()[1:3])
+                        self.texture.append([x, y])
+                        
+                    elif line.startswith('vn '):
+                        x, y, z = map(float, line.split()[1:])
+                        self.normal.append([x, y, z])
 
         except FileNotFoundError:
             print(f"File '{file}' not found.")
